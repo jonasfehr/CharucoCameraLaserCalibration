@@ -22,6 +22,7 @@
 		852E0891794923EE7583C621 /* ofxInputField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B351490B620D04E1E7C52D /* ofxInputField.cpp */; };
 		853E0BA2F448076739446874 /* ofxColorPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181D363B6DD54D1FA6309C43 /* ofxColorPicker.cpp */; };
 		856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9604B925D32EE39065747725 /* ofxBaseGui.cpp */; };
+		8D1ED627212E00D900695F57 /* CalibrationCharuco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D1ED625212E00D900695F57 /* CalibrationCharuco.cpp */; };
 		8DF6E244212DB95900516758 /* librcdev.1.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF6E243212DB95900516758 /* librcdev.1.6.0.dylib */; };
 		A6668C5B1272D7FCD5B5A16F /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CEC50DB3D06414010233963 /* Utilities.cpp */; };
 		B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */; };
@@ -102,7 +103,8 @@
 		87F26B4B24CBD428AD9EEBAA /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBaseGui.h; path = ../../../addons/ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
 		89449E3044D456F7DE7BEA14 /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPanel.h; path = ../../../addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
 		89D5795EEC647196E421147A /* ofxIldaFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxIldaFrame.h; path = ../../../addons/ofxIlda/src/ofxIldaFrame.h; sourceTree = SOURCE_ROOT; };
-		8D1ED620212DF61400695F57 /* CalibrationCharuco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalibrationCharuco.h; sourceTree = "<group>"; };
+		8D1ED625212E00D900695F57 /* CalibrationCharuco.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CalibrationCharuco.cpp; sourceTree = "<group>"; };
+		8D1ED626212E00D900695F57 /* CalibrationCharuco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationCharuco.h; sourceTree = "<group>"; };
 		8DF6E242212DB94F00516758 /* LaserHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaserHandler.h; sourceTree = "<group>"; };
 		8DF6E243212DB95900516758 /* librcdev.1.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = librcdev.1.6.0.dylib; sourceTree = "<group>"; };
 		907C5B5E104864A2D3A25745 /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxToggle.cpp; path = ../../../addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
@@ -394,7 +396,8 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-				8D1ED620212DF61400695F57 /* CalibrationCharuco.h */,
+				8D1ED625212E00D900695F57 /* CalibrationCharuco.cpp */,
+				8D1ED626212E00D900695F57 /* CalibrationCharuco.h */,
 				8DF6E242212DB94F00516758 /* LaserHandler.h */,
 			);
 			path = src;
@@ -561,6 +564,7 @@
 				C602002DE761F9B52DB4400A /* ObjectFinder.cpp in Sources */,
 				A6668C5B1272D7FCD5B5A16F /* Utilities.cpp in Sources */,
 				311DF864378748129984EA1D /* Kalman.cpp in Sources */,
+				8D1ED627212E00D900695F57 /* CalibrationCharuco.cpp in Sources */,
 				45CC483A999BF1065A6B926C /* Distance.cpp in Sources */,
 				B6840996567E78436F7ECFAB /* ETF.cpp in Sources */,
 				F76B4A79BD8DE4854141CB47 /* fdog.cpp in Sources */,
