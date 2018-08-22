@@ -1,0 +1,6 @@
+ofxCv
+ofxGui
+ofxIlda
+ofxIpCamStreamer
+ofxOpencvHomebrew
+ofxRayComposer
