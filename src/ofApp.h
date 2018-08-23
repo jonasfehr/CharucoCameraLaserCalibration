@@ -5,7 +5,7 @@
 #include "ofxIpCamStreamer.h"
 #include "ofxGui.h"
 #include <opencv2/aruco/charuco.hpp>
-#include "CalibrationCharuco.h"
+#include "ofxCharucoCalibration.h"
 
 
 class ofApp : public ofBaseApp{
@@ -42,7 +42,7 @@ class ofApp : public ofBaseApp{
     
     float lastTime;
     
-    CalibrationCharuco calibration;
+    ofxCharucoCalibration calibration;
     
 //    ofxCv::Calibration calibration;
     

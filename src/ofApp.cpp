@@ -101,8 +101,7 @@ void ofApp::draw(){
     camImg.update();
     camImg.draw(0, 720,512,288);
     undistortedImg.draw(512,720,512,288);
-    drawMat(markersDetectedMat, 0,0);
-    drawMat(cameraCalibratonMat, 1024,720,512,288);
+    drawMat(calibration.markersDetectedMat, 0,0);
     stringstream intrinsics;
     intrinsics << "fov: " << toOf(calibration.getDistortedIntrinsics().getFov()) << " distCoeffs: " << calibration.getDistCoeffs();
     string oneLine = intrinsics.str();

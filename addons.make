@@ -1,3 +1,4 @@
+ofxCharucoCalibration
 ofxCv
 ofxGui
 ofxIlda
