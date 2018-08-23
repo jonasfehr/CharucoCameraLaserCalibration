@@ -14,6 +14,7 @@
 
 class CalibrationCharuco : public ofxCv::Calibration {
 public:
+    
     cv::Mat markersDetectedMat;
     cv::Mat cameraCalibratonMat;
     
@@ -33,9 +34,13 @@ public:
     float getMarkerSize() const;
     
     bool add(cv::Mat img);
-    void calibrate();
-    int size();
-    void clean();
+    bool calibrate();
+//    int size();
+    bool clean(float minReprojectionError = 2.f);
+    
+    std::vector<cv::Point3f> createObjectPoints(cv::Size patternSize, float squareSize, ofxCv::CalibrationPattern patternType);
+    
+    void updateReprojectionError(cv::Mat perViewErrorsMat);
     
 private:
     float markerSize;
@@ -47,6 +52,7 @@ private:
     vector< vector< vector< cv::Point2f > > > allCorners;
     vector< vector< int > > allIds;
     vector< cv::Mat > allImgs;
+    
     
     cv::Mat cameraMatrix;
 //    cv::Mat distCoeffs;

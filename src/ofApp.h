@@ -40,8 +40,6 @@ class ofApp : public ofBaseApp{
 
     float diffMean;
     
-    bool calibrateOldSchool();
-
     float lastTime;
     
     CalibrationCharuco calibration;
