@@ -34,7 +34,7 @@ void ofApp::setup(){
             case 0: patternType = CHESSBOARD; break;
             case 1: patternType = CIRCLES_GRID; break;
             case 2: patternType = ASYMMETRIC_CIRCLES_GRID; break;
-            case 3: patternType = CHARUCO; break;
+//            case 3: patternType = CHARUCO; break;
         }
 //        calibration.setPatternType(patternType);
 
